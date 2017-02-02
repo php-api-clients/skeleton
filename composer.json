@@ -10,8 +10,9 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
+        "php": "^7.0",
         "api-clients/foundation": "dev-master",
-        "php": "^7.0"
+        "api-clients/installer": "dev-master"
     },
     "require-dev": {
         "api-clients/resource-generator": "dev-master",
