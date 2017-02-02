@@ -1,0 +1,70 @@
+{
+    "name": "api-clients/skeleton",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cees-Jan Kiewiet",
+            "email": "ceesjank@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "api-clients/foundation": "dev-master",
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "api-clients/resource-generator": "dev-master",
+        "api-clients/test-utilities": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ApiClients\\Skeleton\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ApiClients\\Tests\\Skeleton\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "ensure-installed": "composer install --ansi -n -q",
+        "cs": [
+            "@ensure-installed",
+            "phpcs --standard=PSR2 src/"
+        ],
+        "unit": [
+            "@ensure-installed",
+            "phpunit --colors=always -c phpunit.xml.dist --coverage-text --coverage-html covHtml"
+        ],
+        "qa-all": [
+            "@cs",
+            "@unit"
+        ],
+        "qa-windows": [
+            "@cs",
+            "@unit"
+        ],
+        "qa-ci": [
+            "@qa-all"
+        ],
+        "qa-ci-windows": [
+            "@qa-windows"
+        ],
+        "qa-contrib": [
+            "@qa-all"
+        ],
+        "ci-coverage": [
+            "if [ -f ./build/logs/clover.xml ]; then wget https://scrutinizer-ci.com/ocular.phar && php ocular.phar code-coverage:upload --format=php-clover ./build/logs/clover.xml; fi"
+        ],
+        "post-create-project-cmd": [
+            "ApiClients\\Tools\\Installer\\Installer::postCreateProject",
+            "composer update --no-autoloader",
+            "composer update",
+            "@qa-all"
+        ]
+    }
+}
