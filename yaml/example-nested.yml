@@ -1,0 +1,4 @@
+class: Example\Nested
+properties:
+  id: int
+  name: string

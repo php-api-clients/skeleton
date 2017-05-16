@@ -1,0 +1,8 @@
+yaml_location: yaml
+api_settings: ApiClients\Client\Skeleton\ApiSettings
+src:
+  path: src/Resource
+  namespace: ApiClients\Client\Skeleton\Resource
+tests:
+  path: tests/Resource
+  namespace: ApiClients\Tests\Client\Skeleton\Resource

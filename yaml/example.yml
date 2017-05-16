@@ -1,0 +1,11 @@
+class: Example
+properties:
+  id: int
+  name: string
+  created_at: DateTimeInterface
+  updated_at: DateTimeInterface
+  permissions: array
+  example:
+    type: Example\Nested
+    annotations:
+      nested: Example\Nested
