@@ -198,12 +198,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-api-clients/installer.git",
-                "reference": "1c02a4651cc3802ac3d092191b09797fcb3294f8"
+                "reference": "ebf5c2b8c4a4783e760a2a2a9abd40d01feea339"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-api-clients/installer/zipball/1c02a4651cc3802ac3d092191b09797fcb3294f8",
-                "reference": "1c02a4651cc3802ac3d092191b09797fcb3294f8",
+                "url": "https://api.github.com/repos/php-api-clients/installer/zipball/ebf5c2b8c4a4783e760a2a2a9abd40d01feea339",
+                "reference": "ebf5c2b8c4a4783e760a2a2a9abd40d01feea339",
                 "shasum": ""
             },
             "require": {
@@ -240,7 +240,7 @@
                     "email": "ceesjank@gmail.com"
                 }
             ],
-            "time": "2017-05-20 15:52:05"
+            "time": "2017-05-20 22:33:47"
         },
         {
             "name": "api-clients/middleware",
