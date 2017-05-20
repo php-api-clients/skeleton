@@ -32,7 +32,4 @@ ci-coverage: init
 	composer ci-coverage
 
 generate-resources: init
-	composer generate-resources
-
-generate-resources: init
 	./vendor/bin/api-client-resource-generator ./resources.yml
