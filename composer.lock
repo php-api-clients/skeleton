@@ -198,12 +198,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-api-clients/installer.git",
-                "reference": "ebf5c2b8c4a4783e760a2a2a9abd40d01feea339"
+                "reference": "f91b4aaa88516b18e3df90eb45da81f203ffc66a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-api-clients/installer/zipball/ebf5c2b8c4a4783e760a2a2a9abd40d01feea339",
-                "reference": "ebf5c2b8c4a4783e760a2a2a9abd40d01feea339",
+                "url": "https://api.github.com/repos/php-api-clients/installer/zipball/f91b4aaa88516b18e3df90eb45da81f203ffc66a",
+                "reference": "f91b4aaa88516b18e3df90eb45da81f203ffc66a",
                 "shasum": ""
             },
             "require": {
@@ -240,7 +240,7 @@
                     "email": "ceesjank@gmail.com"
                 }
             ],
-            "time": "2017-05-20 22:33:47"
+            "time": "2017-05-21 10:06:02"
         },
         {
             "name": "api-clients/middleware",
@@ -2575,16 +2575,16 @@
         },
         {
             "name": "reactivex/rxphp",
-            "version": "2.0.1",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ReactiveX/RxPHP.git",
-                "reference": "ca5e94f7e7bacb9adcd4a3ed2b06a4a53e9ebcbe"
+                "reference": "7f5f669850cc035d78f7dafb45fd797fe0ba9e7d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ReactiveX/RxPHP/zipball/ca5e94f7e7bacb9adcd4a3ed2b06a4a53e9ebcbe",
-                "reference": "ca5e94f7e7bacb9adcd4a3ed2b06a4a53e9ebcbe",
+                "url": "https://api.github.com/repos/ReactiveX/RxPHP/zipball/7f5f669850cc035d78f7dafb45fd797fe0ba9e7d",
+                "reference": "7f5f669850cc035d78f7dafb45fd797fe0ba9e7d",
                 "shasum": ""
             },
             "require": {
@@ -2636,7 +2636,7 @@
                 "reactive",
                 "rx"
             ],
-            "time": "2017-04-01T02:13:25+00:00"
+            "time": "2017-05-21T01:48:34+00:00"
         },
         {
             "name": "ringcentral/psr7",
