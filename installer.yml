@@ -24,11 +24,11 @@ questions:
   path_src:
     description: "Your project sources location"
     question: "What is your project sources location?"
-    default: "src"
+    default: "src/"
   path_tests:
     description: "Your project tests location"
     question: "What is your project tests location?"
-    default: "tests"
+    default: "tests/"
   ns_vendor:
     description: "Your namespace"
     question: "What is your vendor namespace?"
