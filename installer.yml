@@ -7,8 +7,8 @@ text:
     - ascii.large.art
   ascii_art_package: api-clients/branding
 env:
-  current_ns: "Vendor\\Project"
-  current_ns_tests: "Vendor\\Tests\\Project"
+  current_ns: "ApiClients\\Skeleton"
+  current_ns_tests: "ApiClients\\Tests\\Skeleton"
 questions:
   author_name:
     description: "Author name"
