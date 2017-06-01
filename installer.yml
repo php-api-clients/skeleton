@@ -9,6 +9,11 @@ text:
 env:
   current_ns: "ApiClients\\Skeleton"
   current_ns_tests: "ApiClients\\Tests\\Skeleton"
+  require:
+    - installer
+    - installer-client-operations
+  scripts:
+    - post-create-project-cmd
 questions:
   author_name:
     description: "Author name"
@@ -43,5 +48,5 @@ questions:
     default: "MyProject"
 operations:
   - "ApiClients\\Tools\\Installer\\Operation\\ComposerJson::create"
-  - "ApiClients\\Tools\\Installer\\Operation\\ResourcesYml::create"
+  - "ApiClients\\Tools\\Installer\\Operation\\Client\\ResourcesYml::create"
   - "ApiClients\\Tools\\Installer\\Operation\\UpdateNamespaces::create"
