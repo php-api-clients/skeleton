@@ -198,12 +198,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-api-clients/installer.git",
-                "reference": "5e08baa64eb6aa6d2c68c1d1a6d15ea6f42508d0"
+                "reference": "8a542884ef10e09646265c588136f6bc08a3a368"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-api-clients/installer/zipball/5e08baa64eb6aa6d2c68c1d1a6d15ea6f42508d0",
-                "reference": "5e08baa64eb6aa6d2c68c1d1a6d15ea6f42508d0",
+                "url": "https://api.github.com/repos/php-api-clients/installer/zipball/8a542884ef10e09646265c588136f6bc08a3a368",
+                "reference": "8a542884ef10e09646265c588136f6bc08a3a368",
                 "shasum": ""
             },
             "require": {
@@ -238,7 +238,7 @@
                     "email": "ceesjank@gmail.com"
                 }
             ],
-            "time": "2017-06-02 15:47:10"
+            "time": "2017-06-02 21:44:17"
         },
         {
             "name": "api-clients/installer-client-operations",
@@ -246,12 +246,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-api-clients/installer-client-operations.git",
-                "reference": "3ff336b2c18b59191a70e799081f6ed2fdfd6213"
+                "reference": "9e90204ec6a6f03febb83c772a01b2dcfbc2768b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-api-clients/installer-client-operations/zipball/3ff336b2c18b59191a70e799081f6ed2fdfd6213",
-                "reference": "3ff336b2c18b59191a70e799081f6ed2fdfd6213",
+                "url": "https://api.github.com/repos/php-api-clients/installer-client-operations/zipball/9e90204ec6a6f03febb83c772a01b2dcfbc2768b",
+                "reference": "9e90204ec6a6f03febb83c772a01b2dcfbc2768b",
                 "shasum": ""
             },
             "require": {
@@ -263,9 +263,6 @@
             "require-dev": {
                 "api-clients/test-utilities": "^4.1"
             },
-            "bin": [
-                "bin/installer"
-            ],
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -282,7 +279,7 @@
                     "email": "ceesjank@gmail.com"
                 }
             ],
-            "time": "2017-05-30 05:58:27"
+            "time": "2017-06-02 21:48:05"
         },
         {
             "name": "api-clients/middleware",
