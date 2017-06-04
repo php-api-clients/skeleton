@@ -198,12 +198,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-api-clients/installer.git",
-                "reference": "0dc7780b88334007fb8ddad05afaa1e7374f7fe8"
+                "reference": "f153cb4e29e92a1f102eff6fccc56c982303002b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-api-clients/installer/zipball/0dc7780b88334007fb8ddad05afaa1e7374f7fe8",
-                "reference": "0dc7780b88334007fb8ddad05afaa1e7374f7fe8",
+                "url": "https://api.github.com/repos/php-api-clients/installer/zipball/f153cb4e29e92a1f102eff6fccc56c982303002b",
+                "reference": "f153cb4e29e92a1f102eff6fccc56c982303002b",
                 "shasum": ""
             },
             "require": {
@@ -238,7 +238,7 @@
                     "email": "ceesjank@gmail.com"
                 }
             ],
-            "time": "2017-06-04 10:13:04"
+            "time": "2017-06-04 16:51:45"
         },
         {
             "name": "api-clients/installer-client-operations",
