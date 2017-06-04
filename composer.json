@@ -13,7 +13,7 @@
     "require": {
         "php": "^7.0",
         "api-clients/foundation": "dev-master",
-        "api-clients/installer": "dev-master",
+        "api-clients/installer": "^1.0",
         "api-clients/installer-client-operations": "dev-master",
         "api-clients/middleware-http-exceptions": "^1.0",
         "api-clients/middleware-user-agent": "^1.0"

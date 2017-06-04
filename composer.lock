@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d2f766299423c81e1d4d631c333a7bad",
+    "content-hash": "ec1d9aac1ef8e890b4c15c0816085761",
     "packages": [
         {
             "name": "api-clients/branding",
@@ -194,16 +194,16 @@
         },
         {
             "name": "api-clients/installer",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-api-clients/installer.git",
-                "reference": "f153cb4e29e92a1f102eff6fccc56c982303002b"
+                "reference": "7d93208a2332134f46f40d39e0404ab368e8ca99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-api-clients/installer/zipball/f153cb4e29e92a1f102eff6fccc56c982303002b",
-                "reference": "f153cb4e29e92a1f102eff6fccc56c982303002b",
+                "url": "https://api.github.com/repos/php-api-clients/installer/zipball/7d93208a2332134f46f40d39e0404ab368e8ca99",
+                "reference": "7d93208a2332134f46f40d39e0404ab368e8ca99",
                 "shasum": ""
             },
             "require": {
@@ -238,7 +238,8 @@
                     "email": "ceesjank@gmail.com"
                 }
             ],
-            "time": "2017-06-04 16:51:45"
+            "description": "YAML based project installer",
+            "time": "2017-06-04T17:31:17+00:00"
         },
         {
             "name": "api-clients/installer-client-operations",
@@ -246,16 +247,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-api-clients/installer-client-operations.git",
-                "reference": "9e90204ec6a6f03febb83c772a01b2dcfbc2768b"
+                "reference": "5af5c73501451305b73c7449cd78ea54e66a5060"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-api-clients/installer-client-operations/zipball/9e90204ec6a6f03febb83c772a01b2dcfbc2768b",
-                "reference": "9e90204ec6a6f03febb83c772a01b2dcfbc2768b",
+                "url": "https://api.github.com/repos/php-api-clients/installer-client-operations/zipball/5af5c73501451305b73c7449cd78ea54e66a5060",
+                "reference": "5af5c73501451305b73c7449cd78ea54e66a5060",
                 "shasum": ""
             },
             "require": {
-                "api-clients/installer": "dev-master",
+                "api-clients/installer": "^1.0",
                 "composer/composer": "^1.3",
                 "php": "^7.0",
                 "symfony/yaml": "^3.2"
@@ -279,7 +280,7 @@
                     "email": "ceesjank@gmail.com"
                 }
             ],
-            "time": "2017-06-02 21:48:05"
+            "time": "2017-06-04 17:34:55"
         },
         {
             "name": "api-clients/middleware",
@@ -5879,7 +5880,6 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "api-clients/foundation": 20,
-        "api-clients/installer": 20,
         "api-clients/installer-client-operations": 20,
         "api-clients/resource-generator": 20
     },
