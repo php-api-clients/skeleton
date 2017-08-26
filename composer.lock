@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "68613f2e1b7caa443d053a9f514e3df6",
+    "content-hash": "03f0fdca7f16f37ec94f6f36ba65d93a",
     "packages": [
         {
             "name": "api-clients/branding",
@@ -498,16 +498,16 @@
         },
         {
             "name": "api-clients/rx",
-            "version": "2.1.0",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-api-clients/rx.git",
-                "reference": "e5fc4181a1050e0a6ff14ba0875647ac88e71d33"
+                "reference": "29a412eb5f13c8b28a0eab10f83c9b05c3804214"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-api-clients/rx/zipball/e5fc4181a1050e0a6ff14ba0875647ac88e71d33",
-                "reference": "e5fc4181a1050e0a6ff14ba0875647ac88e71d33",
+                "url": "https://api.github.com/repos/php-api-clients/rx/zipball/29a412eb5f13c8b28a0eab10f83c9b05c3804214",
+                "reference": "29a412eb5f13c8b28a0eab10f83c9b05c3804214",
                 "shasum": ""
             },
             "require": {
@@ -538,7 +538,7 @@
                     "email": "ceesjank@gmail.com"
                 }
             ],
-            "time": "2017-05-07T16:23:52+00:00"
+            "time": "2017-08-26T14:51:04+00:00"
         },
         {
             "name": "api-clients/transport",
