@@ -7,8 +7,8 @@ text:
     - ascii.large.art
   ascii_art_package: api-clients/branding
 config:
-  current_ns: "ApiClients\\Skeleton"
-  current_ns_tests: "ApiClients\\Tests\\Skeleton"
+  current_ns: "ApiClients\\Client\\Skeleton"
+  current_ns_tests: "ApiClients\\Tests\\Client\\Skeleton"
   require:
     - installer
     - installer-client-operations
