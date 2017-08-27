@@ -53,6 +53,7 @@ install:
   - if [ "$dependencies" = "highest" ]; then composer update --prefer-dist -n; fi;
   - composer show
   - make generate-resources
+  - rm tests/Resource/* -Rfv
 
 ## Run the actual test
 script:
