@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "03f0fdca7f16f37ec94f6f36ba65d93a",
+    "content-hash": "5a72d7459aeb3fa628f2aa199caafc99",
     "packages": [
         {
             "name": "api-clients/branding",
@@ -32,6 +32,50 @@
                 }
             ],
             "time": "2017-05-29T23:03:15+00:00"
+        },
+        {
+            "name": "api-clients/client-services",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-api-clients/client-services.git",
+                "reference": "d33482017be7f40b41adcad2dd0d378c4348835d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-api-clients/client-services/zipball/d33482017be7f40b41adcad2dd0d378c4348835d",
+                "reference": "d33482017be7f40b41adcad2dd0d378c4348835d",
+                "shasum": ""
+            },
+            "require": {
+                "api-clients/hydrator": "^1.0",
+                "api-clients/middleware-json": "^3.0 || ^2.0 || ^1.0",
+                "api-clients/rx": "^2.1",
+                "api-clients/transport": "^3.0 || ^2.0 || ^1.0",
+                "igorw/get-in": "^1.0",
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "api-clients/test-utilities": "^3.0.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ApiClients\\Tools\\Services\\Client\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cees-Jan Kiewiet",
+                    "email": "ceesjank@gmail.com"
+                }
+            ],
+            "description": "Generic client services",
+            "time": "2017-07-22T22:17:30+00:00"
         },
         {
             "name": "api-clients/command-bus",
@@ -276,6 +320,46 @@
             "time": "2017-06-04T17:34:55+00:00"
         },
         {
+            "name": "api-clients/json",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-api-clients/json.git",
+                "reference": "38d40981b2bef5429abb32b116b299bc8aa08ad4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-api-clients/json/zipball/38d40981b2bef5429abb32b116b299bc8aa08ad4",
+                "reference": "38d40981b2bef5429abb32b116b299bc8aa08ad4",
+                "shasum": ""
+            },
+            "require": {
+                "daverandom/exceptional-json": "^1.0.1",
+                "php": "^7.0",
+                "wyrihaximus/ticking-promise": "^1.6"
+            },
+            "require-dev": {
+                "api-clients/test-utilities": "^3.0.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ApiClients\\Tools\\Json\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cees-Jan Kiewiet",
+                    "email": "ceesjank@gmail.com"
+                }
+            ],
+            "time": "2017-04-16T19:26:22+00:00"
+        },
+        {
             "name": "api-clients/middleware",
             "version": "2.0.1",
             "source": {
@@ -366,6 +450,50 @@
             ],
             "description": "Wrap failing HTTP requests in HTTP response type specific exceptions",
             "time": "2017-03-08T21:04:55+00:00"
+        },
+        {
+            "name": "api-clients/middleware-json",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-api-clients/middleware-json.git",
+                "reference": "98e8f769310a67656766775e229924a1a336b326"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-api-clients/middleware-json/zipball/98e8f769310a67656766775e229924a1a336b326",
+                "reference": "98e8f769310a67656766775e229924a1a336b326",
+                "shasum": ""
+            },
+            "require": {
+                "api-clients/json": "^1.0",
+                "api-clients/middleware": "^2.0",
+                "clue/buzz-react": "^1.1",
+                "php": "^7.0",
+                "psr/http-message": "^1.0",
+                "ringcentral/psr7": "^1.2",
+                "wyrihaximus/ticking-promise": "^1.6"
+            },
+            "require-dev": {
+                "api-clients/test-utilities": "^3.0.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ApiClients\\Middleware\\Json\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cees-Jan Kiewiet",
+                    "email": "ceesjank@gmail.com"
+                }
+            ],
+            "time": "2017-05-04T16:43:11+00:00"
         },
         {
             "name": "api-clients/middleware-user-agent",
@@ -1046,6 +1174,41 @@
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
             "time": "2017-02-14T19:40:03+00:00"
+        },
+        {
+            "name": "daverandom/exceptional-json",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DaveRandom/ExceptionalJSON.git",
+                "reference": "7dfa85369633669d9694cbc79db005268718f15a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DaveRandom/ExceptionalJSON/zipball/7dfa85369633669d9694cbc79db005268718f15a",
+                "reference": "7dfa85369633669d9694cbc79db005268718f15a",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ExceptionalJSON\\": "src/"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Wright"
+                }
+            ],
+            "description": "JSON encoding and decoding that throws exceptions on failure",
+            "time": "2017-05-31T16:37:55+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -2362,16 +2525,16 @@
         },
         {
             "name": "react/dns",
-            "version": "v0.4.10",
+            "version": "v0.4.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/dns.git",
-                "reference": "457fbc43c04e9612573a24245d950c091c0fc40e"
+                "reference": "8558bba4f2784aa997670d15fc6f7461a8eb4e53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/dns/zipball/457fbc43c04e9612573a24245d950c091c0fc40e",
-                "reference": "457fbc43c04e9612573a24245d950c091c0fc40e",
+                "url": "https://api.github.com/repos/reactphp/dns/zipball/8558bba4f2784aa997670d15fc6f7461a8eb4e53",
+                "reference": "8558bba4f2784aa997670d15fc6f7461a8eb4e53",
                 "shasum": ""
             },
             "require": {
@@ -2404,7 +2567,7 @@
                 "dns-resolver",
                 "reactphp"
             ],
-            "time": "2017-08-10T12:31:41+00:00"
+            "time": "2017-08-25T08:22:48+00:00"
         },
         {
             "name": "react/event-loop",
@@ -2648,22 +2811,22 @@
         },
         {
             "name": "react/socket",
-            "version": "v0.8.1",
+            "version": "v0.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/socket.git",
-                "reference": "ac8227bfd60c31227c54c0e3d97b65db15df7403"
+                "reference": "ee817e348abcf35c55b448a5cd3ef4eec88379e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/socket/zipball/ac8227bfd60c31227c54c0e3d97b65db15df7403",
-                "reference": "ac8227bfd60c31227c54c0e3d97b65db15df7403",
+                "url": "https://api.github.com/repos/reactphp/socket/zipball/ee817e348abcf35c55b448a5cd3ef4eec88379e9",
+                "reference": "ee817e348abcf35c55b448a5cd3ef4eec88379e9",
                 "shasum": ""
             },
             "require": {
                 "evenement/evenement": "^3.0 || ^2.0 || ^1.0",
                 "php": ">=5.3.0",
-                "react/dns": "0.4.*|0.3.*",
+                "react/dns": "^0.4.11",
                 "react/event-loop": "^1.0 || ^0.5 || ^0.4 || ^0.3.5",
                 "react/promise": "^2.1 || ^1.2",
                 "react/promise-timer": "~1.0",
@@ -2692,7 +2855,7 @@
                 "reactphp",
                 "stream"
             ],
-            "time": "2017-08-15T08:12:47+00:00"
+            "time": "2017-08-25T09:08:33+00:00"
         },
         {
             "name": "react/socket-client",

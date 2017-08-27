@@ -10,6 +10,7 @@
     ],
     "require": {
         "php": "^7.0",
+        "api-clients/client-services": "^1.3",
         "api-clients/foundation": "^1.0",
         "api-clients/installer": "^1.0",
         "api-clients/installer-client-operations": "^1.0",
@@ -23,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "ApiClients\\Skeleton\\": "src/"
+            "ApiClients\\Client\\Skeleton\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ApiClients\\Tests\\Skeleton\\": "tests/"
+            "ApiClients\\Tests\\Client\\Skeleton\\": "tests/"
         }
     },
     "config": {

@@ -6,6 +6,6 @@ properties:
   updated_at: DateTimeInterface
   permissions: array
   example:
-    type: Example\Nested
+    type: Example\Elpmaxe
     annotations:
-      nested: Example\Nested
+      nested: Example\ElpmaxeInterface

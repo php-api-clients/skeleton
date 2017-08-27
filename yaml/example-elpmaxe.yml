@@ -1,4 +1,4 @@
-class: Example\Nested
+class: Example\Elpmaxe
 properties:
   id: int
   name: string
