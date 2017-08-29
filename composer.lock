@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5a72d7459aeb3fa628f2aa199caafc99",
+    "content-hash": "9058f2f55fdc575e25f3b9f9c96e949b",
     "packages": [
         {
             "name": "api-clients/branding",
@@ -361,34 +361,36 @@
         },
         {
             "name": "api-clients/middleware",
-            "version": "2.0.1",
+            "version": "4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-api-clients/middleware.git",
-                "reference": "e25852d9d4d3092cc657b7660a413f6e73ea8c4d"
+                "reference": "328f8e17bbf5a51107de0d1b5987c04757f66499"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-api-clients/middleware/zipball/e25852d9d4d3092cc657b7660a413f6e73ea8c4d",
-                "reference": "e25852d9d4d3092cc657b7660a413f6e73ea8c4d",
+                "url": "https://api.github.com/repos/php-api-clients/middleware/zipball/328f8e17bbf5a51107de0d1b5987c04757f66499",
+                "reference": "328f8e17bbf5a51107de0d1b5987c04757f66499",
                 "shasum": ""
             },
             "require": {
+                "doctrine/annotations": "^1.4",
                 "php": "^7.0",
                 "psr/http-message": "^1.0",
-                "react/promise": "^2.4"
+                "react/promise": "^2.4",
+                "wyrihaximus/doctrine-annotation-autoloader": "^1.0"
             },
             "require-dev": {
-                "api-clients/test-utilities": "^3.0",
-                "container-interop/container-interop": "^1.1",
-                "guzzlehttp/psr7": "^1.3"
+                "api-clients/test-utilities": "^4.1",
+                "guzzlehttp/psr7": "^1.3",
+                "psr/container": "^1.0"
             },
             "suggest": {
                 "api-clients/middleware-cache": "Cache requests with different strategies",
                 "api-clients/middleware-log": "Log requests and their context",
                 "api-clients/middleware-oauth1": "Sign requests with oauth1",
                 "api-clients/middleware-pool": "Pool the maximum concurrent requests",
-                "container-interop/container-interop": "Add a ContainerInterface implementation to use the ContainerLocator"
+                "psr/container": "Add a ContainerInterface implementation to use the ContainerLocator"
             },
             "type": "library",
             "autoload": {
@@ -407,24 +409,24 @@
                 }
             ],
             "description": "Request middleware",
-            "time": "2017-04-08T07:00:13+00:00"
+            "time": "2017-06-28T19:24:19+00:00"
         },
         {
             "name": "api-clients/middleware-http-exceptions",
-            "version": "1.0.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-api-clients/middleware-http-exceptions.git",
-                "reference": "aa64cc632312369e09f6b6979f3ba24c801f4c5b"
+                "reference": "7d70a489ac4aa8ce6941e89c9c17594b9a82ef94"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-api-clients/middleware-http-exceptions/zipball/aa64cc632312369e09f6b6979f3ba24c801f4c5b",
-                "reference": "aa64cc632312369e09f6b6979f3ba24c801f4c5b",
+                "url": "https://api.github.com/repos/php-api-clients/middleware-http-exceptions/zipball/7d70a489ac4aa8ce6941e89c9c17594b9a82ef94",
+                "reference": "7d70a489ac4aa8ce6941e89c9c17594b9a82ef94",
                 "shasum": ""
             },
             "require": {
-                "api-clients/middleware": "^2.0",
+                "api-clients/middleware": "^4.0",
                 "api-clients/psr7-http-status-exceptions": "^1.0",
                 "clue/buzz-react": "^1.1",
                 "php": "^7.0"
@@ -449,25 +451,25 @@
                 }
             ],
             "description": "Wrap failing HTTP requests in HTTP response type specific exceptions",
-            "time": "2017-03-08T21:04:55+00:00"
+            "time": "2017-07-02T14:15:19+00:00"
         },
         {
             "name": "api-clients/middleware-json",
-            "version": "1.1.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-api-clients/middleware-json.git",
-                "reference": "98e8f769310a67656766775e229924a1a336b326"
+                "reference": "3a9a3faf3165d71f3fd43eb331694589dca7b65a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-api-clients/middleware-json/zipball/98e8f769310a67656766775e229924a1a336b326",
-                "reference": "98e8f769310a67656766775e229924a1a336b326",
+                "url": "https://api.github.com/repos/php-api-clients/middleware-json/zipball/3a9a3faf3165d71f3fd43eb331694589dca7b65a",
+                "reference": "3a9a3faf3165d71f3fd43eb331694589dca7b65a",
                 "shasum": ""
             },
             "require": {
                 "api-clients/json": "^1.0",
-                "api-clients/middleware": "^2.0",
+                "api-clients/middleware": "^4.0",
                 "clue/buzz-react": "^1.1",
                 "php": "^7.0",
                 "psr/http-message": "^1.0",
@@ -493,24 +495,24 @@
                     "email": "ceesjank@gmail.com"
                 }
             ],
-            "time": "2017-05-04T16:43:11+00:00"
+            "time": "2017-08-05T19:54:55+00:00"
         },
         {
             "name": "api-clients/middleware-user-agent",
-            "version": "1.0.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-api-clients/middleware-user-agent.git",
-                "reference": "1eea0e51e3ce48005f2cbdd5d7a99c555e833371"
+                "reference": "f8691378ecfcc44d095e870ff7adfdc6ec2dc9ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-api-clients/middleware-user-agent/zipball/1eea0e51e3ce48005f2cbdd5d7a99c555e833371",
-                "reference": "1eea0e51e3ce48005f2cbdd5d7a99c555e833371",
+                "url": "https://api.github.com/repos/php-api-clients/middleware-user-agent/zipball/f8691378ecfcc44d095e870ff7adfdc6ec2dc9ea",
+                "reference": "f8691378ecfcc44d095e870ff7adfdc6ec2dc9ea",
                 "shasum": ""
             },
             "require": {
-                "api-clients/middleware": "^2.0",
+                "api-clients/middleware": "^4.0",
                 "joshdifabio/composed": "^1.0",
                 "ocramius/package-versions": "^1.1",
                 "php": "^7.0",
@@ -537,7 +539,7 @@
                 }
             ],
             "description": "User Agent header middleware",
-            "time": "2017-03-10T19:46:50+00:00"
+            "time": "2017-07-04T15:38:31+00:00"
         },
         {
             "name": "api-clients/psr7-http-status-exceptions",
@@ -670,20 +672,20 @@
         },
         {
             "name": "api-clients/transport",
-            "version": "1.0.1",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-api-clients/transport.git",
-                "reference": "27c6230ed966d3dd752cc06699ddeff3d8a3cc77"
+                "reference": "bdc854f195c41041b8be75b62634b4e21613c9b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-api-clients/transport/zipball/27c6230ed966d3dd752cc06699ddeff3d8a3cc77",
-                "reference": "27c6230ed966d3dd752cc06699ddeff3d8a3cc77",
+                "url": "https://api.github.com/repos/php-api-clients/transport/zipball/bdc854f195c41041b8be75b62634b4e21613c9b5",
+                "reference": "bdc854f195c41041b8be75b62634b4e21613c9b5",
                 "shasum": ""
             },
             "require": {
-                "api-clients/middleware": "^2.0",
+                "api-clients/middleware": "^4.0",
                 "api-clients/rx": "^2.0",
                 "clue/buzz-react": "^1.1",
                 "php": "^7.0",
@@ -722,7 +724,8 @@
                     "email": "ceesjank@gmail.com"
                 }
             ],
-            "time": "2017-05-15T19:55:06+00:00"
+            "description": "Middleware infused clue/buzz-react",
+            "time": "2017-07-22T20:55:25+00:00"
         },
         {
             "name": "beberlei/assert",
