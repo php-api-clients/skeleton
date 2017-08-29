@@ -10,8 +10,8 @@ config:
   current_ns: "ApiClients\\Client\\Skeleton"
   current_ns_tests: "ApiClients\\Tests\\Client\\Skeleton"
   require:
-    - installer
-    - installer-client-operations
+    - api-clients/installer
+    - api-clients/installer-client-operations
   scripts:
     - post-create-project-cmd
 questions:
