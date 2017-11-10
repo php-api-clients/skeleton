@@ -5,7 +5,7 @@ namespace ApiClients\Client\Skeleton\CommandBus\Command;
 use WyriHaximus\Tactician\CommandHandler\Annotations\Handler;
 
 /**
- * @Handler("ApiClients\Skeleton\CommandBus\Handler\MethodHandler")
+ * @Handler("ApiClients\Client\Skeleton\CommandBus\Handler\MethodHandler")
  */
 final class MethodCommand
 {

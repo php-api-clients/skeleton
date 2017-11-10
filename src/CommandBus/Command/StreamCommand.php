@@ -5,7 +5,7 @@ namespace ApiClients\Client\Skeleton\CommandBus\Command;
 use WyriHaximus\Tactician\CommandHandler\Annotations\Handler;
 
 /**
- * @Handler("ApiClients\Skeleton\CommandBus\Handler\StreamHandler")
+ * @Handler("ApiClients\Client\Skeleton\CommandBus\Handler\StreamHandler")
  */
 final class StreamCommand
 {
