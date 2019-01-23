@@ -672,16 +672,16 @@
         },
         {
             "name": "api-clients/transport",
-            "version": "3.0.3",
+            "version": "3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-api-clients/transport.git",
-                "reference": "8e458a7cb98557078ce693dd80d17fc5deec06c6"
+                "reference": "30fdab79310655412fe3ab94cec6776cd9f1d517"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-api-clients/transport/zipball/8e458a7cb98557078ce693dd80d17fc5deec06c6",
-                "reference": "8e458a7cb98557078ce693dd80d17fc5deec06c6",
+                "url": "https://api.github.com/repos/php-api-clients/transport/zipball/30fdab79310655412fe3ab94cec6776cd9f1d517",
+                "reference": "30fdab79310655412fe3ab94cec6776cd9f1d517",
                 "shasum": ""
             },
             "require": {
@@ -726,7 +726,7 @@
                 }
             ],
             "description": "Middleware infused clue/buzz-react",
-            "time": "2017-10-25T06:00:27+00:00"
+            "time": "2018-07-09T16:52:49+00:00"
         },
         {
             "name": "beberlei/assert",
