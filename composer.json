@@ -107,7 +107,9 @@
         ],
         "post-create-project-cmd": [
             "ApiClients\\Tools\\Installer\\Installer::postCreateProject",
+            "composer require composer/composer --ansi",
             "composer update --ansi -vvv",
+            "composer remove composer/composer --ansi",
             "@generate-resources",
             "@cs-fix",
             "@qa-all"
