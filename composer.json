@@ -110,7 +110,6 @@
             "ApiClients\\Tools\\Installer\\Installer::postCreateProject",
             "composer require composer/composer --ansi -vvv",
             "composer update --ansi -vvv",
-            "composer remove composer/composer --ansi -vvv",
             "@generate-resources",
             "@cs-fix",
             "@qa-all"
