@@ -2,11 +2,11 @@
 
 namespace ApiClients\Client\Skeleton;
 
+use ApiClients\Client\Skeleton\CommandBus\Command\MethodCommand;
+use ApiClients\Client\Skeleton\CommandBus\Command\StreamCommand;
 use ApiClients\Foundation\ClientInterface;
 use ApiClients\Foundation\Factory;
 use ApiClients\Foundation\Resource\ResourceInterface;
-use ApiClients\Client\Skeleton\CommandBus\Command\MethodCommand;
-use ApiClients\Client\Skeleton\CommandBus\Command\StreamCommand;
 use React\EventLoop\LoopInterface;
 use React\Promise\CancellablePromiseInterface;
 use React\Promise\PromiseInterface;
