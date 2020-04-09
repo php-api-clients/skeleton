@@ -899,16 +899,16 @@
         },
         {
             "name": "composer/ca-bundle",
-            "version": "1.2.6",
+            "version": "1.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "47fe531de31fca4a1b997f87308e7d7804348f7e"
+                "reference": "95c63ab2117a72f48f5a55da9740a3273d45b7fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/47fe531de31fca4a1b997f87308e7d7804348f7e",
-                "reference": "47fe531de31fca4a1b997f87308e7d7804348f7e",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/95c63ab2117a72f48f5a55da9740a3273d45b7fd",
+                "reference": "95c63ab2117a72f48f5a55da9740a3273d45b7fd",
                 "shasum": ""
             },
             "require": {
@@ -951,20 +951,20 @@
                 "ssl",
                 "tls"
             ],
-            "time": "2020-01-13T10:02:55+00:00"
+            "time": "2020-04-08T08:27:21+00:00"
         },
         {
             "name": "composer/composer",
-            "version": "1.10.1",
+            "version": "1.10.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "b912a45da3e2b22f5cb5a23e441b697a295ba011"
+                "reference": "0b55f39d2fd6632c43a803a5ace0677f406e342c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/b912a45da3e2b22f5cb5a23e441b697a295ba011",
-                "reference": "b912a45da3e2b22f5cb5a23e441b697a295ba011",
+                "url": "https://api.github.com/repos/composer/composer/zipball/0b55f39d2fd6632c43a803a5ace0677f406e342c",
+                "reference": "0b55f39d2fd6632c43a803a5ace0677f406e342c",
                 "shasum": ""
             },
             "require": {
@@ -1031,7 +1031,7 @@
                 "dependency",
                 "package"
             ],
-            "time": "2020-03-13T19:34:27+00:00"
+            "time": "2020-04-09T14:26:35+00:00"
         },
         {
             "name": "composer/semver",
@@ -1604,6 +1604,7 @@
                 "serialize",
                 "tokenizer"
             ],
+            "abandoned": "opis/closure",
             "time": "2018-03-21T22:21:57+00:00"
         },
         {
@@ -2433,16 +2434,16 @@
         },
         {
             "name": "psr/log",
-            "version": "1.1.2",
+            "version": "1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801"
+                "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/446d54b4cb6bf489fc9d75f55843658e6f25d801",
-                "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/0f73288fd15629204f9d42b7055f72dacbe811fc",
+                "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc",
                 "shasum": ""
             },
             "require": {
@@ -2476,7 +2477,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2019-11-01T11:05:21+00:00"
+            "time": "2020-03-23T09:12:05+00:00"
         },
         {
             "name": "react/cache",
@@ -3374,16 +3375,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.14.0",
+            "version": "v1.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "34094cfa9abe1f0f14f48f490772db7a775559f2"
+                "reference": "81ffd3a9c6d707be22e3012b827de1c9775fc5ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/34094cfa9abe1f0f14f48f490772db7a775559f2",
-                "reference": "34094cfa9abe1f0f14f48f490772db7a775559f2",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/81ffd3a9c6d707be22e3012b827de1c9775fc5ac",
+                "reference": "81ffd3a9c6d707be22e3012b827de1c9775fc5ac",
                 "shasum": ""
             },
             "require": {
@@ -3395,7 +3396,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.14-dev"
+                    "dev-master": "1.15-dev"
                 }
             },
             "autoload": {
@@ -3429,7 +3430,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-01-13T11:15:53+00:00"
+            "time": "2020-03-09T19:04:49+00:00"
         },
         {
             "name": "symfony/polyfill-php56",
@@ -4390,6 +4391,7 @@
                     "email": "jakub.onderka@gmail.com"
                 }
             ],
+            "abandoned": "php-parallel-lint/php-console-color",
             "time": "2018-09-29T17:23:10+00:00"
         },
         {
@@ -4434,6 +4436,7 @@
                     "homepage": "http://www.acci.cz/"
                 }
             ],
+            "abandoned": "php-parallel-lint/php-console-highlighter",
             "time": "2015-04-20T18:58:01+00:00"
         },
         {
@@ -4481,6 +4484,7 @@
             ],
             "description": "This tool check syntax of PHP files about 20x faster than serial check.",
             "homepage": "https://github.com/JakubOnderka/PHP-Parallel-Lint",
+            "abandoned": "php-parallel-lint/php-parallel-lint",
             "time": "2015-12-15T10:42:16+00:00"
         },
         {
