@@ -969,16 +969,16 @@
         },
         {
             "name": "composer/composer",
-            "version": "1.10.11",
+            "version": "1.10.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "2190b064370df8a464b8cfdcbd3ee48973784e27"
+                "reference": "a6cc92b39c796ec3fb9a360f9c0e578afc2fc96d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/2190b064370df8a464b8cfdcbd3ee48973784e27",
-                "reference": "2190b064370df8a464b8cfdcbd3ee48973784e27",
+                "url": "https://api.github.com/repos/composer/composer/zipball/a6cc92b39c796ec3fb9a360f9c0e578afc2fc96d",
+                "reference": "a6cc92b39c796ec3fb9a360f9c0e578afc2fc96d",
                 "shasum": ""
             },
             "require": {
@@ -1059,20 +1059,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-09-08T14:53:44+00:00"
+            "time": "2020-09-08T20:58:51+00:00"
         },
         {
             "name": "composer/semver",
-            "version": "1.5.2",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/semver.git",
-                "reference": "610045d2a33b8e368abebc789f6f4180b4f88ab6"
+                "reference": "9787c20e39dfeea673665abee0679c73ba67105d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/semver/zipball/610045d2a33b8e368abebc789f6f4180b4f88ab6",
-                "reference": "610045d2a33b8e368abebc789f6f4180b4f88ab6",
+                "url": "https://api.github.com/repos/composer/semver/zipball/9787c20e39dfeea673665abee0679c73ba67105d",
+                "reference": "9787c20e39dfeea673665abee0679c73ba67105d",
                 "shasum": ""
             },
             "require": {
@@ -1134,7 +1134,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-09-08T14:18:25+00:00"
+            "time": "2020-09-08T20:42:08+00:00"
         },
         {
             "name": "composer/spdx-licenses",
